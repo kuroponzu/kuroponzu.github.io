@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>しもページ</title>
+    <link>https://kuroponzu.github.io/</link>
+    <description>Recent content on しもページ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 25 Sep 2020 13:39:54 +0900</lastBuildDate><atom:link href="https://kuroponzu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post</title>
+      <link>https://kuroponzu.github.io/posts/</link>
+      <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
+      
+      <guid>https://kuroponzu.github.io/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://kuroponzu.github.io/tags/</link>
+      <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
+      
+      <guid>https://kuroponzu.github.io/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ホームページ兼ブログ開設しました</title>
+      <link>https://kuroponzu.github.io/posts/first-post/</link>
+      <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
+      
+      <guid>https://kuroponzu.github.io/posts/first-post/</guid>
+      <description>ちょくちょく更新していく予定です。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://kuroponzu.github.io/about/</link>
+      <pubDate>Fri, 25 Sep 2020 13:35:51 +0900</pubDate>
+      
+      <guid>https://kuroponzu.github.io/about/</guid>
+      <description>プロファイル こんにちは、初めまして、しもぱたです。東京でweb系のエンジニアをしています。
+大学生の頃は電気電子系の学科に在学していました。小さい頃、家電とか好きだったなぁと思い、ハードウェアよりの勉強をしようと思って入学したのですが、色々と勉強していくうちにソフトウェア系に興味を持ち、最終的には画像処理の研究をしていました。
+新卒で入った会社はSIerでした。プラットフォーム系の部署に所属をし
+ 壊れた端末の交換対応 ネットワーク機器の監視 入札案件の提案書作成 社内システム(ADサーバーやメールサーバなど)のリプレイス対応  などなど、色々とやっていました。お客さんと直接、調整や要件定義をしたり、チームをまとめてマネージャーのような事をする一方で自分で手を動かして、システムを構築するなどをしていました。4,5年ほど勤めていたのですが、基礎的な技術力無しに、マネジメントすることに不安を覚え、自ら手を動かしやすいweb系に転職しました。
+web系企業ではRuby on Railsを中心に、業務で以下の技術を扱って来ました。
+ RubyOnRails Vue.js AWS CircleCI Docker  業務内容としては
+ フレームワークのバージョンアップ対応 管理画面の作成 メルマガ送信システムの保守、運用 ElasticSerchを使った検索機能の改修  基本的には必要あればバックエンド、フロントエンド、インフラなどあまり分野に拘らず、触っていくスタンスですが、バックエンドを触っていたり、作業や手順を自動化するのが好きです。0→1のフェーズより1→10,10→100のフェーズに携わっている方が好きです。
+保有資格  Java Silver(2015年ごろ取得) 応用情報処理技術者(2015年ごろ取得)  執筆歴  Flutter×Firebaseで始めるモバイルアプリ開発  </description>
+    </item>
+    
+  </channel>
+</rss>
