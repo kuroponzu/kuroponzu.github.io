@@ -1,4 +1,4 @@
-baseURL = "https://kuroponzu.github.io/blogs"
+baseURL = "https://kuroponzu.github.io/blog/"
 publishDir = "docs"
 languageCode = "ja"
 title = "しもページ"
