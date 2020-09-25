@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>しもページ</title>
-    <link>https://kuroponzu.github.io/blogs/</link>
+    <link>https://kuroponzu.github.io/blog/</link>
     <description>Recent content on しもページ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 25 Sep 2020 13:39:54 +0900</lastBuildDate><atom:link href="https://kuroponzu.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2020 13:39:54 +0900</lastBuildDate><atom:link href="https://kuroponzu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post</title>
-      <link>https://kuroponzu.github.io/blogs/posts/</link>
+      <link>https://kuroponzu.github.io/blog/posts/</link>
       <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
       
-      <guid>https://kuroponzu.github.io/blogs/posts/</guid>
+      <guid>https://kuroponzu.github.io/blog/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://kuroponzu.github.io/blogs/tags/</link>
+      <link>https://kuroponzu.github.io/blog/tags/</link>
       <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
       
-      <guid>https://kuroponzu.github.io/blogs/tags/</guid>
+      <guid>https://kuroponzu.github.io/blog/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ホームページ兼ブログ開設しました</title>
-      <link>https://kuroponzu.github.io/blogs/posts/first-post/</link>
+      <link>https://kuroponzu.github.io/blog/posts/first-post/</link>
       <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
       
-      <guid>https://kuroponzu.github.io/blogs/posts/first-post/</guid>
+      <guid>https://kuroponzu.github.io/blog/posts/first-post/</guid>
       <description>ちょくちょく更新していく予定です。</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://kuroponzu.github.io/blogs/about/</link>
+      <link>https://kuroponzu.github.io/blog/about/</link>
       <pubDate>Fri, 25 Sep 2020 13:35:51 +0900</pubDate>
       
-      <guid>https://kuroponzu.github.io/blogs/about/</guid>
+      <guid>https://kuroponzu.github.io/blog/about/</guid>
       <description>プロファイル こんにちは、初めまして、しもぱたです。東京でweb系のエンジニアをしています。
 大学生の頃は電気電子系の学科に在学していました。小さい頃、家電とか好きだったなぁと思い、ハードウェアよりの勉強をしようと思って入学したのですが、色々と勉強していくうちにソフトウェア系に興味を持ち、最終的には画像処理の研究をしていました。
 新卒で入った会社はSIerでした。プラットフォーム系の部署に所属をし
