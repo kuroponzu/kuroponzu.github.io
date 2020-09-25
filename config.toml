@@ -1,7 +1,7 @@
 baseURL = "https://kuroponzu.github.io"
 publishDir = "docs"
 languageCode = "ja"
-title = "shimopata page"
+title = "しもページ"
 theme = "soho"
 logoHomeLink = "/blog"
 enableEmoji = true
@@ -9,7 +9,7 @@ enableEmoji = true
 [params]
 
 author = "Sho Shimohata"
-description = "shimopata's homepage"
+description = "東京でwebエンジニアしてます。今までの経歴とか、最近あった頃をまとめてます。"
 images = ["images/profile.png"]
 profilePicture = "images/profile.jpg"
 copyright = "sho shimohata"
