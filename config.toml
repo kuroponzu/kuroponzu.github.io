@@ -9,7 +9,7 @@ enableEmoji = true
 [params]
 
 author = "Sho Shimohata"
-description = "東京でwebエンジニアしてます。今までの経歴とか、最近あった頃をまとめてます。"
+description = "東京でwebエンジニアしてます。"
 images = ["images/profile.png"]
 profilePicture = "images/profile.jpg"
 copyright = "sho shimohata"
