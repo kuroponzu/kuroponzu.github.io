@@ -1,0 +1,71 @@
+baseURL = "https://kuroponzu.github.io"
+publishDir = "docs"
+languageCode = "ja"
+title = "shimopata page"
+theme = "soho"
+logoHomeLink = "/blog"
+enableEmoji = true
+
+[params]
+
+author = "Sho Shimohata"
+description = "shimopata's homepage"
+images = ["images/profile.png"]
+profilePicture = "images/profile.jpg"
+copyright = "sho shimohata"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Tags"
+  weight = 100
+  identifier = "tags"
+  url = "/tags/"
+
+## Set custom theme color.
+# themeColor = "#fc2803"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/kuroponzu"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/shimopata"
+
+  [[params.socialIcons]]
+  icon = "fa-facebook"
+  title = "facebook"
+  url = "https://www.facebook.com/sho.shimohata/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
