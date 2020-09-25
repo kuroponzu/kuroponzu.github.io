@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on しもページ</title>
-    <link>https://kuroponzu.github.io/blog/posts/</link>
+    <link>https://kuroponzu.github.io/posts/</link>
     <description>Recent content in Posts on しもページ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 25 Sep 2020 13:39:54 +0900</lastBuildDate><atom:link href="https://kuroponzu.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2020 13:39:54 +0900</lastBuildDate><atom:link href="https://kuroponzu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ホームページ兼ブログ開設しました</title>
-      <link>https://kuroponzu.github.io/blog/posts/first-post/</link>
+      <link>https://kuroponzu.github.io/posts/first-post/</link>
       <pubDate>Fri, 25 Sep 2020 13:39:54 +0900</pubDate>
       
-      <guid>https://kuroponzu.github.io/blog/posts/first-post/</guid>
+      <guid>https://kuroponzu.github.io/posts/first-post/</guid>
       <description>ちょくちょく更新していく予定です。</description>
     </item>
     
