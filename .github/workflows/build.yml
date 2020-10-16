@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-18.04
-    if: github.event.pull_request.merged == true
     steps:
       - name: Checkout Develop
         uses: actions/Checkout@v2
