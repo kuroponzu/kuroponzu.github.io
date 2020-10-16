@@ -9,7 +9,7 @@ enableEmoji = true
 [params]
 
 author = "Sho Shimohata"
-description = "東京でwebエンジニアしてます。"
+description = "東京でwebエンジニアしてます"
 images = ["images/profile.png"]
 profilePicture = "images/profile.jpg"
 copyright = "sho shimohata"
@@ -29,10 +29,10 @@ copyright = "sho shimohata"
   url = "/posts/"
 
   [[menu.main]]
-  name = "Tags"
+  name = "Contact"
   weight = 100
-  identifier = "tags"
-  url = "/tags/"
+  identifier = "contact"
+  url = "/contact/"
 
 ## Set custom theme color.
 # themeColor = "#fc2803"
