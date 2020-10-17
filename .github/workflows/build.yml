@@ -9,10 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-      - name: Checkout Develop
+      - name: Checkout master
         uses: actions/Checkout@v2
         with:
-          ref: develop
+          ref: master
       - name: Clone submodule
         run: git submodule update --init --recursive
       - name: Setup Hugo
