@@ -13,7 +13,6 @@ description = "東京でwebエンジニアしてます"
 images = ["images/profile.png"]
 profilePicture = "images/profile.jpg"
 copyright = "sho shimohata"
-googleAnalytics = "G-QKMY1LCXBF"
 
 [menu]
 
