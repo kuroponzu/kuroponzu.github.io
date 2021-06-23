@@ -31,6 +31,66 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://kuroponzu.github.io#author",
+      "name": "Sho Shimohata",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://kuroponzu.github.io/images/profile.jpg"
+        
+      },
+      "description": "東京でwebエンジニアしてます"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kuroponzu.github.io#website",
+      "url": "https://kuroponzu.github.io",
+      "name": "しもページ",
+      "description": "東京でwebエンジニアしてます",
+      "publisher": {
+        "@id": "https://kuroponzu.github.io#author"
+      },
+      "inLanguage": "ja"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://kuroponzu.github.io/images/profile.png",
+      "caption": "しもページ"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kuroponzu.github.io/categories/#webpage",
+      "url": "https://kuroponzu.github.io/categories/",
+      "name": "Categories",
+      "isPartOf": {
+        "@id": "https://kuroponzu.github.io#website"
+      },
+      "about": {
+         "@id": "https://kuroponzu.github.io#author"
+      },
+      "description": "東京でwebエンジニアしてます",
+      "inLanguage": "ja",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://kuroponzu.github.io/categories/"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -73,7 +133,9 @@
       
         
         <div class="author-image">
-          <img src="/images/profile.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <a href="https://kuroponzu.github.io">
+            <img src="/images/profile.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
         </div>
         
       
@@ -128,11 +190,13 @@
 
   <footer>
   <div>
-    &copy; sho shimohata 2021
+    <p>
+      &copy; sho shimohata 2021
 
-    
+      
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -140,6 +204,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   
 

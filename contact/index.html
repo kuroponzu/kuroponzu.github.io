@@ -43,6 +43,101 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://kuroponzu.github.io#author",
+      "name": "Sho Shimohata",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://kuroponzu.github.io/images/profile.jpg"
+        
+      },
+      "description": "東京でwebエンジニアしてます"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kuroponzu.github.io#website",
+      "url": "https://kuroponzu.github.io",
+      "name": "しもページ",
+      "description": "東京でwebエンジニアしてます",
+      "publisher": {
+        "@id": "https://kuroponzu.github.io#author"
+      },
+      "inLanguage": "ja"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://kuroponzu.github.io/images/profile.png",
+      "caption": "しもページ"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kuroponzu.github.io/contact/#webpage",
+      "url": "https://kuroponzu.github.io/contact/",
+      "name": "Contact",
+      "isPartOf": {
+        "@id": "https://kuroponzu.github.io#website"
+      },
+      "about": {
+         "@id": "https://kuroponzu.github.io#author"
+      },
+      "datePublished": "2020-10-16T22:50:51+09:00",
+      "dateModified": "2020-10-16T22:50:51+09:00",
+      "description": "ご連絡がある場合は次のメールアドレスにご連絡願います。\n pontatanpo1014@gmail.com  ",
+      "inLanguage": "ja",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://kuroponzu.github.io/contact/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://kuroponzu.github.io/contact/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://kuroponzu.github.io/contact/#webpage"
+      },
+      "headline": "Contact",
+      "datePublished": "2020-10-16T22:50:51+09:00",
+      "dateModified": "2020-10-16T22:50:51+09:00",
+      "publisher": {
+        "@id": "https://kuroponzu.github.io#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "ja",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://kuroponzu.github.io/contact/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -84,7 +179,9 @@
       
         
         <div class="author-image">
-          <img src="/images/profile.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <a href="https://kuroponzu.github.io">
+            <img src="/images/profile.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
         </div>
         
       
@@ -132,27 +229,68 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Contact</h1>
+  <h1 class="title">Contact</h1>
+  
 
   
 
+  <div>
   <p>ご連絡がある場合は次のメールアドレスにご連絡願います。</p>
 <ul>
 <li><a href="mailto:pontatanpo1014@gmail.com">pontatanpo1014@gmail.com</a></li>
 </ul>
 
+  </div>
+
+  
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://kuroponzu.github.io/contact/"
+     data-text="Contact"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://kuroponzu.github.io/contact/"
+     data-text="Contact"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://kuroponzu.github.io/contact/"
+     data-text="Contact"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://kuroponzu.github.io/contact/"
+     data-text="Contact"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://kuroponzu.github.io/contact/"
+     data-text="Contact"><i class="fab fa-pinterest"></i></a>
 </div>
 
 
+  
+</div>
   </main>
 
   <footer>
   <div>
-    &copy; sho shimohata 2021
+    <p>
+      &copy; sho shimohata 2021
 
-    
+      
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -160,6 +298,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   
 
