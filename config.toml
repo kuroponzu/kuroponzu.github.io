@@ -5,15 +5,16 @@ title = "しもページ"
 theme = "soho"
 logoHomeLink = "/blog"
 enableEmoji = true
+summarylength = 10
 
 [params]
 
-author = "Sho Shimohata"
-description = "東京でwebエンジニアしてます"
-images = ["images/profile.png"]
-profilePicture = "images/profile.jpg"
-copyright = "sho shimohata"
-googleAnalytics = "G-QKMY1LCXBF"
+  author = "Sho Shimohata"
+  description = "東京でwebエンジニアしてます"
+  images = ["images/profile.png"]
+  profilePicture = "images/profile.jpg"
+  copyright = "sho shimohata"
+  googleAnalytics = "G-QKMY1LCXBF"
 
 [menu]
 
