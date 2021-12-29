@@ -2,11 +2,17 @@
 
 https://kuroponzu.github.io/
 
+## themes
+
+[soho](https://github.com/alexandrevicenzi/soho)
 ## deploy
 
 ### local
-
- -  Execute `hugo server` on teminal
+ - `brew install hugo`
+ - `cd themes/`
+ - `git submodule add https://github.com/alexandrevicenzi/soho.git`
+ - `git submodule update --init`
+ - `hugo server`
 
 ### production
 
