@@ -1,0 +1,48 @@
+<aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      {{ with site.Params.gravatar }}
+      <div class="author-image">
+        <a href="{{ site.Home.Permalink }}">
+          <img src="https://www.gravatar.com/avatar/{{md5 .}}?s=200&d=mp" class="img-circle img-headshot center" alt="Gravatar">
+        </a>
+      </div>
+      {{ else }}
+        {{ with site.Params.profilePicture }}
+        <div class="author-image">
+          <a href="{{ site.Home.Permalink }}">
+            <img src="{{ . | relURL }}" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        {{ end }}
+      {{ end }}
+
+      <h1>{{ site.Title }}</h1>
+
+      {{ with site.Params.description }}
+      <p class="lead">{{.}}</p>
+      {{end}}
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="{{ site.Home.Permalink }}">Home</a>
+        </li>
+        {{ range site.Menus.main -}}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{- end }}
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      {{ range $item := site.Params.socialIcons }}
+      <a href="{{ $item.url }}" rel="me" title="{{ $item.title }}" target="_blank">
+        <i class="fab {{ $item.icon }}" aria-hidden="true"></i>
+      </a>
+      {{ end }}
+    </section>
+  </div>
+</aside>
