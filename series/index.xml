@@ -4,7 +4,8 @@
     <title>Series on しもページ</title>
     <link>https://kuroponzu.github.io/series/</link>
     <description>Recent content in Series on しもページ</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://kuroponzu.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="https://kuroponzu.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
